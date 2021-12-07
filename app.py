@@ -11,7 +11,7 @@ def index():
 
 @app.route('/a')
 def a():
-  return render_template('templates.html')
+  return render_template('template.html')
   
 if __name__ == '__main__':
   app.run()
